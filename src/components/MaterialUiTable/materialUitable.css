@@ -1,0 +1,14 @@
+.tableData{
+    box-shadow: 5px 5px 8px rgb(205, 205, 223), 10px 10px 8px rgb(226, 184, 184), 15px 15px 8px rgb(177, 228, 177);
+
+}
+.MuiTableRow-root.MuiTableRow-head > * {
+    font-weight: bold !important;
+}
+.tableData,th, tr{
+    font-weight: bolder;
+    color: aqua;
+}
+/* .clearnce{
+    border-radius: 2rem;
+} */

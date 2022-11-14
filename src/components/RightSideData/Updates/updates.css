@@ -1,0 +1,31 @@
+.updateData{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    background-color: rgb(209, 245, 233);
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.updateProfile{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 1.3rem; */
+    padding: 1rem;
+    gap: 1rem;
+}
+.updateProfile .spanData{
+    font-size: 12px;
+}
+.spanData>span:nth-child(1){
+    font-weight: bolder;
+    color: rgb(103, 128, 95);
+}
+.updateProfile>img{
+    width: 3.74rem;
+    height: 3.74rem;
+}
+.timeData{
+    margin-top: 0.3rem;
+    font-style: italic;
+}

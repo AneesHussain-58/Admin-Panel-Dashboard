@@ -1,0 +1,49 @@
+:root{
+  --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+  --pink: #FF919D;
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: #f799a354;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.App{
+  display: flex;
+  width: 100%;
+  height: max-content;
+  background: linear-gradient(180deg, #C484F3, #FAD79D);
+}
+.innerSection{
+  display: grid;
+  grid-template-columns: 11rem auto 20rem;
+  width: 98%;
+  height: max-content;
+
+  gap: 16px;
+  background: rgb(216, 224, 208);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .innerSection{
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .innerSection{
+    grid-template-columns: 1fr;
+  } 
+}

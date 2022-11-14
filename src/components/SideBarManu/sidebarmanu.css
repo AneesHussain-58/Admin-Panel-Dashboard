@@ -1,0 +1,59 @@
+.sidebarmanue{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 4rem;
+    transition: all 300ms ease;
+}
+.iconsData{
+    display: flex;
+    gap: 1rem;
+    margin-left: 0.1rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+.iconsData>img{
+    width: 3rem;
+    height: 3rem;
+}
+.iconsData>span>span{
+    color: yellow;
+}
+.manuItemsData{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+.items{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 12px;
+    height: 3rem;
+    margin-left: 2rem;
+    position: relative;
+    transition: all 300ms ease;
+    border-radius: 0.7rem;
+    font-size: 14px;
+}
+.items>span{
+    font-weight: bolder;
+    color: rgb(224, 123, 123);
+}
+.items:hover{
+    cursor: pointer;
+}
+.active {
+    background: linear-gradient(rgb(207, 132, 132), rgb(226, 226, 153), rgb(154, 223, 154));
+    margin-left: 0;
+    color: rgb(192, 210, 30);
+  }
+  .active::before {
+    content: "";
+    width: 10px;
+    height: 100%;
+    background: var(--pink);
+    margin-right: calc(1rem - 8px);
+  }
